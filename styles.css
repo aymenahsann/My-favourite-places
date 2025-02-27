@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    font-weight: 400;
+}
+
+.photo{
+    display: inline-block;
+}
+
+h1, p, h3, span{
+    font-family: 'Raleway', sans-serif;
+}
+
+.photo > img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10%;
+ 
+}
+
+.favourite{
+    color: #A9B5DF;
+}
+
+p{
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+h3{
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+img .skardu{
+    border-radius: 20%;
+}
+
+.gallery{
+    display: flex;
+    column-gap: 100px;
+    padding: 50px;
+    position: relative;
+    left: 12%;
+    box-shadow:20px 10px 20px 20px rgb(56, 80, 56);
+    width: 900px;
+
+}
+
+@media (max-width:768px) {
+    h1{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .gallery{
+        display: block;
+        box-shadow: 200px rgb(56, 80, 64);
+        display: block;
+        position: relative;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        width: 250px;
+        padding: 10px;
+        
+    }
+    .photo >img{
+        width: 250px;
+        height: 150px;
+        margin: 0px;
+        left: 0px;
+        
+        display: inline;
+
+        
+    }
+    
+    p, h3{
+        text-align: justify;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
